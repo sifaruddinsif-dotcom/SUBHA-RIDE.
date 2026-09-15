@@ -1,0 +1,41 @@
+SUBHA RIDE — GITHUB UPLOAD GUIDE
+
+1. GitHub → New repository
+2. Repository name: SUBHA-RIDE
+3. Create the repository.
+4. Click "Add file" → "Upload files".
+5. Upload ALL files/folders from this package while keeping this structure:
+
+SUBHA-RIDE/
+  server.js
+  package.json
+  .env.example
+  .gitignore
+  README.md
+  PRODUCTION_SETUP.md
+  GITHUB_STEPS.txt
+  public/
+    index.html
+
+IMPORTANT:
+- Do NOT upload a real .env file.
+- Do NOT put Razorpay secret, MSG91 auth key, or other private secrets in GitHub.
+- GitHub stores the source code. The Node.js backend must be deployed on a Node-capable host.
+- GitHub Pages alone cannot run server.js.
+
+After upload:
+1. Open the repository.
+2. Check that public/index.html is inside the public folder.
+3. Check package.json and server.js are in the repository root.
+4. Deploy the repository to your Node.js hosting provider.
+5. Add the environment variables from .env.example in the hosting provider.
+6. Run the project with: npm start
+
+Production services still require your own provider accounts/keys:
+- Razorpay
+- Google Maps
+- MSG91
+- Production PostgreSQL/Supabase
+- Driver/Admin live tracking infrastructure
+
+Never send private API secrets in chat.

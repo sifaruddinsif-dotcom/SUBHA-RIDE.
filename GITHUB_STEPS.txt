@@ -1,0 +1,33 @@
+SUBHA RIDE — GITHUB + RUN STEPS
+
+A) TEST ON COMPUTER
+1. Install Node.js 18 or newer.
+2. Extract this ZIP.
+3. Open a terminal in the extracted folder.
+4. Run: npm start
+5. Open: http://localhost:3000
+
+B) GITHUB
+1. GitHub → New repository.
+2. Repository name: subha-ride-customer
+3. Create repository.
+4. Add file → Upload files.
+5. Upload:
+   package.json
+   server.js
+   README.md
+   GITHUB_STEPS.txt
+   public/index.html
+6. Commit changes.
+
+IMPORTANT:
+GitHub Pages can host only the frontend/static part. It cannot run server.js.
+For the full connected customer app, deploy this Node project to a Node host such as Render/Railway/Fly.io/VPS and use the resulting public URL.
+
+C) FIRST LOGIN
+Enter a phone number.
+In development mode the screen displays a demo OTP.
+Enter that OTP and continue.
+
+D) REAL PRODUCTION
+Replace demo OTP, data.json, demo wallet top-up, and estimated location/fare logic with real services before taking customer payments or launching publicly.

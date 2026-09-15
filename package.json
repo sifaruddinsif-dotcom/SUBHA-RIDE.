@@ -1,0 +1,13 @@
+{
+  "name": "subha-ride-all-completed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SUBHA RIDE customer app with a dependency-free Node backend demo",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
